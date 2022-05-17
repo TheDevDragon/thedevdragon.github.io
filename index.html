@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Christopher Aguilo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Website Portfolio/homepage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+        
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+        
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="top">
+        <div class="bar shadow card left-align large">
+            <a class="bar-item button hide-medium hide-large right padding-large hover-white large red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="bar-item button padding-large white">Home</a>
+            <a href="#" class="bar-item button hide-small padding-large hover-white">About Me</a>
+            <a href="#" class="bar-item button hide-small padding-large hover-white">Projects</a>
+            <a href="#" class="bar-item button hide-small padding-large hover-white">Blog</a>
+            <a href="#" class="bar-item button hide-small padding-large hover-white">Contact Me</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+            <a href="#" class="bar-item button padding-large">About Me</a>
+            <a href="#" class="bar-item button padding-large">Projects</a>
+            <a href="#" class="bar-item button padding-large">Blog</a>
+            <a href="#" class="bar-item button padding-large">Contact Me</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="container shadow center" style="padding:128px 16px">
+        <h1 class="margin jumbo">Christopher Aguilo</h1>
+        <p class="xlarge">Software Developer</p>
+        <button class="button black padding-large large margin-top">Contact Me</button>
+    </header>
+
+    <!-- First Grid -->
+    <div class="row-padding padding-64 container">
+        <div class="content">
+            <div class="twothird">
+                <h1>My Career Aspirations</h1>
+                <h5 class="padding-32">My dreams are one thing, though committing to it and pushing through is another challenge I gladly enjoy.</h5>
+
+                <p class="text-grey">I've begun my journey through my own curiosity, seeing how the world today functions with the ever growing computational power that provides us with convenience. My long term goal is to be able to enter the machine learning and AI sector
+                    as I want to contribute and utilize my skills towards improving our knowledge and relationship with tech. Growing more skills in the software side of things is an approach I want to take before being able to get more hands on with
+                    hardware and robotics. Being able to merge robotics and AI, I eventually want to create a companion of sorts to help with everyday tasks and act as some sort of tutoring assistant. I plan on starting a company someday with robotics
+                    and AI at the forefront and to get there, achieving the smaller and more current goals that I have will greatly improve my chances of success.
+                </p>
+            </div>
+
+            <div class="center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Artificial_Intelligence_%26_AI_%26_Machine_Learning.jpg" margin-left="200" height="300" width="400">
+                <br>
+                <cite>By mikemacmarketing - https://www.flickr.com/photos/152824664@N07/44405376514/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=95608091</cite>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="row-padding light-grey padding-64 container">
+        <div class="content">
+            <div class="twothird center">
+                <i class="padding-64 text-red margin-right"></i>
+            </div>
+
+            <div class="twothird">
+                <h1>Skills and Progress</h1>
+                <h5 class="padding-32"></h5>
+
+                <p class="text-grey"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container black center opacity padding-64">
+        <h1 class="margin xlarge">Quote of the day: live life</h1>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container padding-64 center opacity">
+        <div class="xlarge padding-32">
+            <i class="fa fa-facebook-official hover-opacity"></i>
+            <i class="fa fa-instagram hover-opacity"></i>
+            <i class="fa fa-snapchat hover-opacity"></i>
+            <i class="fa fa-pinterest-p hover-opacity"></i>
+            <i class="fa fa-twitter hover-opacity"></i>
+            <i class="fa fa-linkedin hover-opacity"></i>
+        </div>
+
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("show") == -1) {
+                x.className += " show";
+            } else {
+                x.className = x.className.replace(" show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
